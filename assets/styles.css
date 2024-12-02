@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: #A8A8A8;
+    background-color: #007FFF;
     text-align: center;
     position: sticky;
     padding: 25px 0;
@@ -23,9 +23,15 @@ nav li {
     margin: 0 20px;
 }
 
+p {
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: #000000;
+  }
+
 nav a {
     text-decoration: none;
-    color: #5C3317;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s ease-in-out;
@@ -49,6 +55,8 @@ h4,
 h5,
 h6 {
   color: #00a8e8;
+  padding-left: 20px;
+  padding-right: 20px; 
 }
 
 article {
@@ -74,7 +82,7 @@ article {
 }
 
 .art-title {
-    text-decoration: underline #D9D919;
+    text-decoration: underline #0000FF;
 }
 
 .soundtrack {
@@ -82,7 +90,17 @@ article {
     width: 200px;
     float: left;
     margin-right: 20px;
+    margin-left: 20px;
     border: 2px yellow;
+}
+
+.smeshariki-temi{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px center;
 }
 
 .smeshariki20 {
